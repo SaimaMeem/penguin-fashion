@@ -1,91 +1,95 @@
-    /* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap'); */
-    
-    * {
-        font-family: 'Roboto', sans-serif;
-        color: #3E3E3E;
-    }
-    /* header styles */
-    
-    .nav-link {
-        color: #3C3C3C;
-        font-weight: 700;
-    }
-    /* header styles */
-    /* common styles */
-    
-    .h5 {
-        color: #363958;
-        font-weight: 900;
-    }
-    
-    .navbar,
-    .bg-color {
-        background-color: #FFFBF0;
-    }
-    
-    .heading {
-        font-family: 'Bebas Neue', cursive;
-        font-size: 3em;
-        line-height: 1em;
-    }
-    
-    .btn.buy-now {
-        color: white;
-        font-weight: 600;
-        background-image: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
-        padding: 1em 1em;
-        border-radius: 0.65em;
-    }
-    
-    .fas {
-        color: white;
-    }
-    /* common styles */
-    /*banner styles */
-    
-    .highlight {
-        color: #FABE4C;
-        font-family: 'Bebas Neue', cursive;
-        font-size: 4em;
-        line-height: 1em;
-    }
-    
-    .one {
-        color: #FABE4C;
-    }
-    
-    .two {
-        color: #363958;
-    }
-    /*banner styles */
-    /* woman and man jacket styles */
-    
-    .jacket-image {
-        background-color: #F1F1F1;
-    }
-    
-    .jacket-header {
-        color: #363958;
-        ;
-    }
-    
-    .price {
-        font-size: 2.5em;
-        font-weight: 900;
-    }
-    
-    .shadow {
-        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
-    }
-    /* woman  and man jacket styles */
-    /* last-section */
-    
-    .circle {
-        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
-        border-radius: 2.5em;
-    }
-    /* last-section */
-    /* media queries */
-    
-    @media screen and (max-width:768px) {}
-    /* media queries */
+        /* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap'); */
+        
+        * {
+            font-family: 'Roboto', sans-serif;
+            color: #3E3E3E;
+        }
+        /* header styles */
+        
+        .nav-link {
+            color: #3C3C3C;
+            font-weight: 700;
+        }
+        /* header styles */
+        /* common styles */
+        
+        .h5 {
+            color: #363958;
+            font-weight: 900;
+        }
+        
+        .navbar,
+        .bg-color {
+            background-color: #FFFBF0;
+        }
+        
+        .heading {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3em;
+            line-height: 1em;
+        }
+        
+        .btn.buy-now {
+            color: white;
+            font-weight: 600;
+            background-image: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+            padding: 1em 1em;
+            border-radius: 0.65em;
+        }
+        
+        .fas {
+            color: white;
+        }
+        /* common styles */
+        /*banner styles */
+        
+        .highlight {
+            color: #FABE4C;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 4em;
+            line-height: 1em;
+        }
+        
+        .one {
+            color: #FABE4C;
+        }
+        
+        .two {
+            color: #363958;
+        }
+        /*banner styles */
+        /* woman and man jacket styles */
+        
+        .jacket-image {
+            background-color: #F1F1F1;
+        }
+        
+        .jacket-header {
+            color: #363958;
+            ;
+        }
+        
+        .price {
+            font-size: 2.5em;
+            font-weight: 900;
+        }
+        
+        .shadow {
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+        }
+        /* woman  and man jacket styles */
+        /* last-section */
+        
+        .circle {
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+            border-radius: 2.5em;
+        }
+        /* last-section */
+        /* media queries */
+        
+        @media screen and (max-width: 768px) {
+            .last-part>.row {
+                text-align: center;
+            }
+        }
+        /* media queries */
