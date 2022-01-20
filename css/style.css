@@ -32,7 +32,10 @@
 .heading {
     font-family: 'Bebas Neue', cursive;
     font-size: 3em;
-    line-height: 1em;
+    line-height: 0.8;
+    /* border-left: 7px solid #363958;
+    padding-left: 10px;
+    display: inline-block; */
 }
 
 .btn.buy-now {
