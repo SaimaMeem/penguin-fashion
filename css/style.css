@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-body {
-    background-color: #FFFBF0;
-    font-family: 'Poppins', sans-serif;
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap'); */
+
+* {
+    font-family: 'Roboto', sans-serif;
     color: #3E3E3E;
+}
+
+.navbar,
+.bg-color {
+    background-color: #FFFBF0;
 }
 
 
@@ -17,20 +22,66 @@ body {
 /* header styles */
 
 
+/* common styles */
+
+.heading {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+
+/* common styles */
+
+
 /*banner styles */
 
-.highlight-one {
+.highlight {
+    color: #FABE4C;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4em;
+    line-height: 1em;
+}
+
+.one {
     color: #FABE4C;
 }
 
-.highlight-two {
+.two {
     color: #363958;
 }
 
-button.btn.buy-now {
+.btn.buy-now {
     color: white;
+    font-weight: 600;
     background-image: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    padding: 1em 1em;
+    border-radius: 0.65em;
+}
+
+.fas {
+    color: white;
 }
 
 
 /*banner styles */
+
+
+/* woman jacket styles */
+
+.jacket-image {
+    background-color: #F1F1F1;
+}
+
+.jacket-header {
+    color: #363958;
+    ;
+}
+
+.price {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+
+
+/* woman jacket styles */
