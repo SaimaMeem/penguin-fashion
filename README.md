@@ -1,4 +1,4 @@
-# penguin-fashion
+
 A simple clothing website created using HTML5, CSS3 and Bootstrap.
 
-Live Website: https://saimameem.github.io/penguin-fashion/
+Live Website: [Penguin Fashion](https://saimameem.github.io/penguin-fashion/)
